@@ -1,2 +1,61 @@
 # Google App Engine generated folder
 appengine-generated/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and logs
+*.log
+*.sqlite3
+*.db
+*.pid
+*.csv
+*.json
+*.env
+
+# Environment variables
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# Python virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# macOS files
+.DS_Store
+
+# System files
+Thumbs.db
+
+# Python egg and distribution
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Flask specific
+instance/
+*.pyc
+
+# Node.js if using frontend tools like npm, vite, etc.
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uploaded/downloaded media (optional)
+downloads/
+uploads/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+.cache
+.pytest_cache/
